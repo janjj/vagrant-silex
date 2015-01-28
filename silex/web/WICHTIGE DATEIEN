@@ -1,0 +1,14 @@
+1.) src/controllers.php
+laden des templates und schickt den name mit
+
+
+
+2.)templates/layout.html --> Base Template
+content wird eingebaut der in hello bzw. $name datei steht!
+3.)
+
+
+Aufgaben
+gemachte botstrap seite in basic template packen!
+mit navigation footer etc AUSER slot mit Content...dieser ist dynamisch und von 3.9 geladen
+/static
