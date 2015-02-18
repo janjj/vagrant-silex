@@ -12,3 +12,7 @@ Aufgaben
 gemachte botstrap seite in basic template packen!
 mit navigation footer etc AUSER slot mit Content...dieser ist dynamisch und von 3.9 geladen
 /static
+
+
+
+vendor enthält externe daten z.b. Bootstrap (css und js)
