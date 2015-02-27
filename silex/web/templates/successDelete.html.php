@@ -5,10 +5,9 @@
 
 
 <div class="panel panel-success">
-    <div class="panel-heading">Glückwunsch</div>
+    <div class="panel-heading">Gl&uuml;ckwunsch</div>
     <div class="panel-body panel-success">
-        Die Formulardaten wurden erfolgreich Gespeichert!
+        Entfernter als entfernt
     </div>
-
-    <a href="/blog-anzeige" class="btn btn-primary">Anzeigen</a>
+    <a href="/blog-anzeige" class="btn btn-primary">Geh zur&uuml;ck mein Junger Padawan</a>
 </div>

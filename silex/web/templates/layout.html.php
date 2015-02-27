@@ -54,6 +54,8 @@ $slots = $view['slots'];
                     <a href="/bootstrap2/">Bootstrap2</a></li>
                 <li <?= $title  == "Form" ? 'class="active"' : '""' ?>>
                     <a href="/form">Form</a></li>
+                <li <?= $title  == "Blog" ? 'class="active"' : '""' ?>>
+                    <a href="/blog-anzeige">Blog</a></li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menü <span class="caret"></span></a>
