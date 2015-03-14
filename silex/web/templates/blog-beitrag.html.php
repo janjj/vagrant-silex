@@ -1,5 +1,13 @@
-<?php $view->extend('layout.html.php') ?>
-<?php $view['slots']->set('title', 'Einzel Beitrag') ?>
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: Jan Jäger
+ * Date: 04.02.2015
+ */
+
+$view->extend('layout.html.php'); ?>
+<?php $view['slots']->set('title', 'Einzel Beitrag'); ?>
 
 <div class="panel panel-default">
     <div class="panel-heading">
@@ -13,12 +21,12 @@
         ?>
     </div>
     <div class="panel-footer">
-        <a href='/blog-anzeige'>Zurück</a>
+        <a href='/blog-anzeige'>Zur&uuml;ck</a>
     </div>
 </div>
 
 <button type="button" class="btn btn-primary btn-danger" data-toggle="modal" data-target="#myModalDelete">
-    Beitrag Löschen
+    Beitrag L&ouml;schen
 </button>
 
 <!-- Modal -->
@@ -32,11 +40,11 @@
                 <h4 class="modal-title" id="myModalLabel">Sind sie Sicher</h4>
             </div>
             <div class="modal-body">
-                Sind sie Sicher das sie den Beitrag mit der <b>ID: <?php echo $id ?></b> löschen wollen?
+                Sind sie Sicher das sie den Beitrag mit der <b>ID: <?php echo $id ?></b> l&ouml;schen wollen?
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-                <button type="button" class="btn btn-primary" id="deleteButton">JA! Wirklich Löschen</button>
+                <button type="button" class="btn btn-primary" id="deleteButton">JA! Wirklich L&ouml;schen</button>
             </div>
         </div>
     </div>
@@ -66,13 +74,13 @@
          type: "method",
 
          success: function (reqCode) {
-         //wenn saveData.php true bzw. den Status 1 zurückliefert
+         //wenn saveData.php true bzw. den Status 1 zurueckliefert
          if (reqCode==1) {
-         alert("gelöscht");
+         alert("geloescht");
 
 
          } else{
-         alert('Fehler beim Abschickenöl des Formulares.');
+         alert('Fehler beim Abschickenoel des Formulares.');
          alert("Error");
          }
          }*/

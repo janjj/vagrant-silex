@@ -1,5 +1,13 @@
-<?php $view->extend('layout.html.php') ?>
-<?php $view['slots']->set('title', 'Eintr&auml;ge Anzeigen') ?>
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: Jan Jäger
+ * Date: 04.02.2015
+ */
+
+$view->extend('layout.html.php');
+$view['slots']->set('title', 'Eintr&auml;ge Anzeigen') ?>
 
 <?php
 $size = sizeof($post);

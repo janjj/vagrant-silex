@@ -1,6 +1,13 @@
-<?php $view->extend('layout.html.php') ?>
+<?php
 
-<?php $view['slots']->set('title', "Erfolgreich") ?>
+/**
+ * Created by PhpStorm.
+ * User: Jan Jäger
+ * Date: 04.02.2015
+ */
+$view->extend('layout.html.php');
+$view['slots']->set('title', "Erfolgreich");
+?>
 
 
 

@@ -1,13 +1,20 @@
-<?php $view->extend('layout.html.php') ?>
+<?php
 
-<?php $view['slots']->set('title', "Formular") ?>
+/**
+ * Created by PhpStorm.
+ * User: Jan Jäger
+ * Date: 04.02.2015
+ */
+
+$view->extend('layout.html.php');
+$view['slots']->set('title', "Formular") ?>
 
 
 <div class="panel panel-default">
     <div class="panel-heading">Neuer Beitrag</div>
     <div class="panel-body">
         <?php if ($err == true) { ?>
-            <div class="alert alert-danger" role="alert">Bitte alle Felder ausfüllen</div>
+            <div class="alert alert-danger" role="alert">Bitte alle Felder ausf&uuml;llen</div>
         <?php } ?>
         <form action="./blog-formular" method="post">
             <div class="form-group">
@@ -20,7 +27,7 @@
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" id="checkbox"> gleich Veröffentlichen?
+                    <input type="checkbox" id="checkbox"> gleich Ver&ouml;ffentlichen?
                 </label>
             </div>
             <button type="submit" class="btn btn-primary">Abschicken</button>

@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Created by PhpStorm.
+ * User: Jan Jäger
+ * Date: 10.03.2015
+ */
+
 $slots = $view ['slots'];
 
 $view->extend("layout.html.php");
@@ -21,7 +28,6 @@ $view['slots']->set('title', 'Login');
     <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 
 
 <div class="panel panel-default">
