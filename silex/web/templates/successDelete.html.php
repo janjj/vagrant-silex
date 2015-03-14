@@ -1,6 +1,6 @@
 <?php $view->extend('layout.html.php') ?>
 
-<?php $view['slots']->set('title', "Erfolg") ?>
+<?php $view['slots']->set('title', "Erfolgreich") ?>
 
 
 
@@ -9,5 +9,5 @@
     <div class="panel-body panel-success">
         Entfernter als entfernt
     </div>
-    <a href="/blog-anzeige" class="btn btn-primary">Geh zur&uuml;ck mein Junger Padawan</a>
+    <a href="/blog-anzeige" class="btn btn-primary">Gehe hier zur&uuml;ck </a>
 </div>
