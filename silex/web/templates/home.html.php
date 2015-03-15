@@ -110,14 +110,14 @@ $view ['slots']->set('title', 'Home'); // Set die variable title mit dem Namen d
 
 <div class="row text-center">
 
-        <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4 well">
-            <p>F&uuml;nfter Inhalt</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 well">
-            <p>Sechster Inhalt</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 well">
-            <p>Siebter Inhalt</p>
-        </div>
+    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 well">
+        <p>F&uuml;nfter Inhalt</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4 well">
+        <p>Sechster Inhalt</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 well">
+        <p>Siebter Inhalt</p>
+    </div>
 
 </div>

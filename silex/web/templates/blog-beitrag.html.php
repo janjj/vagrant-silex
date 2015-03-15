@@ -6,22 +6,29 @@
  * Date: 04.02.2015
  */
 
-$view->extend('layout.html.php'); ?>
-<?php $view['slots']->set('title', 'Einzel Beitrag'); ?>
+$view->extend('layout.html.php');
+$view['slots']->set('title', 'Beitrag ' . $id);
+
+$author = $post["author"];
+$title = $post['title'];
+$datum = $post['created_at'];
+$text = $post['text'];
+?>
 
 <div class="panel panel-default">
     <div class="panel-heading">
         <?php
-        echo "Titel: <b>" . $post['title'] . "</b> - Datum: " . $post['created_at'];
+        echo "<h3> Titel: <b>" . $title . "</h2></b>";
         ?>
     </div>
     <div class="panel-body">
         <?php
-        echo $post['text'];
+        echo $text;
         ?>
     </div>
     <div class="panel-footer">
-        <a href='/blog-anzeige'>Zur&uuml;ck</a>
+        <?php echo "<br>Autor: <b> " . $author . "</b> - Datum: " . $datum ?><br>
+        <a href='/beitrag'>Zur&uuml;ck</a>
     </div>
 </div>
 
