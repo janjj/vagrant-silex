@@ -7,7 +7,7 @@ CREATE TABLE blog_post (
   text TEXT,
   created_at DATE
 );
-
+ /*
 INSERT INTO blog_post
   (title, text, created_at)
 VALUES
@@ -20,3 +20,4 @@ SELECT *
 FROM blog_post
 WHERE id = 1;
 
+*/
